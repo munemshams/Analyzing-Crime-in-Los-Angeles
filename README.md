@@ -15,7 +15,7 @@ This project uses crimes.csv, a modified version of a dataset sourced from Los A
 
 **Key Questions & Insights**
 
-1️. = Which hour has the highest frequency of crimes?
+1️. Which hour has the highest frequency of crimes?
 
 We extract the first two digits of "TIME OCC" (24-hour military format) and count all offenses by hour.
 
