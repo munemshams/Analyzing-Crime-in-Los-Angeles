@@ -11,7 +11,11 @@ This project analyzes real LAPD crime data to help identify patterns in:
 
 The insights generated here can support better policing strategies, community safety planning, and data-driven resource allocation.
 
-This project uses crimes.csv, a modified version of a dataset sourced from Los Angeles City's Public Record Data.
+**Data Source**
+
+This project uses a dataset sourced from Los Angeles City's Public Record Data. The dataset is hosted externally in the link below:
+
+https://www.kaggle.com/datasets/munemshariarshams/los-angeles-crime-data
 
 **Key Questions & Insights**
 
@@ -51,24 +55,22 @@ This repository contains the following files:
 
 Main Files
 
-- crimes_analysis_with_visuals.py	Main script performing analysis + generating plots
+- crimes_analysis_with_visuals.py -	Main python script performing analysis + generating plots
   
-- crimes.csv	LAPD crime dataset (modified)
-  
-- README.md	Project documentation
+- README.md	- Project documentation
   
 Generated Output Files
 
-- hourly_crime_counts.csv	Count of crimes per hour (0–23)
+- hourly_crime_counts.csv	- Count of crimes per hour (0–23)
 
-- night_crime_by_area.csv	Night crime frequencies by LAPD area
+- night_crime_by_area.csv	- Night crime frequencies by LAPD area
 
-- victim_age_groups.csv	Crimes by victim age group
+- victim_age_groups.csv	- Crimes by victim age group
 
-- summary.txt	Human-readable summary of all key results
+- summary.txt	Human - readable summary of all key results
 
-- crime_by_hour.png	Plot of crime count by hour
+- crime_by_hour.png	- Plot of crime count by hour
 
-- night_crime_by_area.png	Plot of night crimes per area
+- night_crime_by_area.png	- Plot of night crimes per area
 
 - victim_age_groups.png	Plot of victim age-group distribution
