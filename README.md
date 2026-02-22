@@ -19,9 +19,7 @@ This project uses crimes.csv, a modified version of a dataset sourced from Los A
 
 We extract the first two digits of "TIME OCC" (24-hour military format) and count all offenses by hour.
 
-✔ Result
-
-peak_crime_hour = 12
+Result = peak_crime_hour = 12
 
 Noon (12:00–12:59) has the highest volume of reported crimes.
 
