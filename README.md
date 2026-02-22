@@ -19,7 +19,7 @@ https://www.kaggle.com/datasets/munemshariarshams/los-angeles-crime-data
 
 **Key Questions & Insights**
 
-1️. Which hour has the highest frequency of crimes?
+**1️. Which hour has the highest frequency of crimes?**
 
 We extract the first two digits of "TIME OCC" (24-hour military format) and count all offenses by hour.
 
@@ -29,7 +29,7 @@ Noon (12:00–12:59) has the highest volume of reported crimes.
 
 A visualization (crime_by_hour.png) highlights the spike clearly.
 
-2️. Which area has the highest frequency of night crimes?
+**2️. Which area has the highest frequency of night crimes?**
 
 Night hours are defined as:
 
@@ -41,7 +41,7 @@ The Central Division experiences the most night-time criminal activity.
 
 The visualization (night_crime_by_area.png) shows how Central compares with all 21 LAPD areas.
 
-3️. How many crimes occur against victims of different age groups?
+**3️. How many crimes occur against victims of different age groups?**
 
 Using pd.cut, we compute the total crimes affecting each group.
 
@@ -53,13 +53,13 @@ A bar chart (victim_age_groups.png) visualizes the distribution.
 
 This repository contains the following files:
 
-Main Files
+**Main Files**
 
 - crimes_analysis_with_visuals.py -	Main python script performing analysis + generating plots
   
 - README.md	- Project documentation
   
-Generated Output Files
+**Generated Output Files**
 
 - hourly_crime_counts.csv	- Count of crimes per hour (0–23)
 
