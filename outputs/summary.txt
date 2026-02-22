@@ -1,0 +1,14 @@
+Los Angeles Crime Analysis Summary
+----------------------------------
+
+Peak crime hour: 12
+Peak night-crime location: Central
+
+Victim age distribution:
+  0-17: 4528
+  18-25: 28291
+  26-34: 47470
+  35-44: 42157
+  45-54: 28353
+  55-64: 20169
+  65+: 14747
